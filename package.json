@@ -1,7 +1,7 @@
 {
   "name": "redux-vanila",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. actions - type 설정",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "redux": "^4.2.0"
-  }
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyo9442/react-redux-practice02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suyo9442/react-redux-practice02/issues"
+  },
+  "homepage": "https://github.com/suyo9442/react-redux-practice02#readme"
 }
