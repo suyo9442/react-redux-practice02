@@ -12,3 +12,5 @@ const addSubscriber = () => {
 // store
 
 // subscribe - view - dispatch
+
+// 원격 저장소랑 연결되었음?
