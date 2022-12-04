@@ -5,14 +5,16 @@ import store from "./redux/store";
 import Subscriber from "./components/Subscriber";
 import Display from "./components/Display";
 import View from "./components/View";
+import Comment from "./components/Comment";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <Comment></Comment>
         <Subscriber></Subscriber>
-        <Display></Display>
         <View></View>
+        <Display></Display>
       </div>
     </Provider>
   );
